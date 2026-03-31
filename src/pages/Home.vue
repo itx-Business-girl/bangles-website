@@ -1,3 +1,7 @@
 <template>
-    <h1>home</h1>
+ <WelcomeComponent></WelcomeComponent>    
 </template>
+
+<script setup>
+import WelcomeComponent from '@/components/Welcome-component.vue';
+</script>
