@@ -1,6 +1,6 @@
 <template>
     <div class="welcome-img">
-      <h1>welcome to my shop</h1>
+      <h1>welcome to kashmiri bangles</h1>
     </div>
 </template>
 
@@ -11,6 +11,6 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 50vh;
+    height: 100vh;
   }
 </style>

@@ -1,7 +1,7 @@
  <template>
     <header class="header">
       <h1 class="logo">Kashmiri Bangles</h1>
- <nav class="navbar">
+      <nav class="navbar">
     <router-link class="navbar" to="/">Home</router-link>
     <router-link class="navbar" to="/about">About</router-link>
     <router-link class="navbar" to="/shop">Shop</router-link>

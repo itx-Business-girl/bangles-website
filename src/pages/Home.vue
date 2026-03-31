@@ -1,7 +1,13 @@
 <template>
- <WelcomeComponent></WelcomeComponent>    
+ <WelcomeComponent/>
+
+<main>
+    <router-view/>
+</main>
 </template>
 
 <script setup>
-import WelcomeComponent from '@/components/Welcome-component.vue';
+import WelcomeComponent from '@/components/WelcomeComponent.vue';
+
+
 </script>

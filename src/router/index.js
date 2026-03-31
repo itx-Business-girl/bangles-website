@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from './Home.vue'
-import About from './About.vue'
-import Shop from './Shop.vue'
-import Contact from './Contact.vue'
+import Home from '../pages/Home.vue'
+import About from '../pages/About.vue'
+import Shop from '../pages/Shop.vue'
+import Contact from '../pages/Contact.vue'
 
 
 const routes = [
@@ -34,4 +34,4 @@ const router = createRouter({
   history: createWebHistory(),
   routes
 })
-// export default router
+export default router
