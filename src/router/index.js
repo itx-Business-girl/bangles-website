@@ -2,8 +2,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '../pages/Home.vue'
 import About from '../pages/About.vue'
-import Shop from '../pages/Shop.vue'
+import Products from '../pages/Products.vue'
 import Contact from '../pages/Contact.vue'
+import Privacy from '@/pages/Privacy.vue'
+import Terms from '@/pages/Terms.vue'
+import ReturnPolicy from '@/pages/ReturnPolicy.vue'
 
 
 const routes = [
@@ -19,15 +22,19 @@ const routes = [
      path: '/about',
   },
 
-  { name: 'Shop', 
-    component: Shop ,
-   path: '/shop',  
+  { name: 'Products', 
+    component: Products ,
+   path: '/products',  
   },
 
   { name: 'Contact',
     component: Contact ,
    path: '/contact',
   },
+  
+  { path: '/privacy', component: Privacy },
+  { path: '/terms', component: Terms },
+  { path: '/return', component: ReturnPolicy }
 
 ]
 const router = createRouter({

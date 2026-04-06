@@ -1,0 +1,9 @@
+<template>
+    <ProductCartComponent :data="dataArray" :showButton="false" :showPera="false"/>
+
+</template>
+<script setup>
+ import ProductCartComponent from '@/components/productCart-component.vue';
+import {ref} from 'vue';
+ const dataArray = ref([{img:'https://i.pinimg.com/736x/54/ae/25/54ae258154c984d31783b6201957d847.jpg',title:'green & red',subtitle:' bangles',price:'6$'},{img:'https://i.pinimg.com/736x/13/e0/a1/13e0a13abc135135235ad2e25e37cdf3.jpg',title:'mirror',subtitle:'bangles',},{img:'https://i.pinimg.com/736x/17/6f/46/176f46faec4dba5f8dc6d839e823d1db.jpg', title:'silver',subtitle:'bangles',},{img:'https://i.pinimg.com/736x/1c/c2/be/1cc2be38a9a583971f0c258b09928572.jpg', title:'olive',subtitle:'bangles',},{img:'https://i.pinimg.com/736x/95/4e/15/954e15e135c3d10607dee50a98ae4b81.jpg', title:'dark brown',subtitle:'valvet bangles',},{img:'https://i.pinimg.com/1200x/45/6c/a2/456ca21019695c35c2f73737add56a3b.jpg', title:'Red glass',subtitle:'Bridal bangles',},{img:'https://i.pinimg.com/736x/e8/6d/9a/e86d9a8d53ef934d7bad9a7be81bb983.jpg', title:'Elegant Ruby',subtitle:' Gold Statement Bangles Set',},{img:'https://i.pinimg.com/736x/88/6e/52/886e52ab2d3bacbbdf7204dd39b1dae0.jpg', title:'colorfull',subtitle:'bangles',},{img:'https://i.pinimg.com/736x/b2/29/dc/b229dcc5f364e0c3a2386bd373ec27c3.jpg', title:'light purple',subtitle:'beautifull bangles ',},{img:'https://i.pinimg.com/736x/b0/2d/a8/b02da833cd0109bcdd3a3ba33899942d.jpg', title:'brown elgent',subtitle:'bangles for girls',},{img:'https://i.pinimg.com/1200x/24/1d/ed/241ded9d66ed2b30cbb8579a6002f697.jpg', title:'Pink & White',subtitle:'party wear bangles',},{img:'https://i.pinimg.com/736x/44/4b/92/444b92f70e254f9bd2f5f13e9d503797.jpg', title:'black mirror',subtitle:'bangles',}])
+</script>
