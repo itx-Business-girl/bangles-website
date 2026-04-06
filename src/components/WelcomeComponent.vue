@@ -68,13 +68,19 @@
       height: 40px;
       font-size: 12px;
     }
+    .section-height{
+      height: 50vh;
+    }
   }
-   /* @media(max-width:768px){
+
+
+   @media(max-width:375px){
     .h1{
-      font-size: 50px;
+      font-size: 40px;
     }
     .peragraph{
-      font-size: 27px;
+      font-size: 22px;
+      margin-left: 34px;
     }
     .welcome-botton{
       width: 130px;
@@ -82,5 +88,65 @@
     .welcome-img{
       height: 70vh;
     }
-   } */
+    .section-height{
+      height: 55vh;
+    }
+   }
+
+
+   @media (max-width: 425px) {
+    .h1{
+      font-size: 40px;
+    }
+    .peragraph{
+      font-size: 22px;
+      margin-left: 20px;
+    }
+    .welcome-botton{
+      width: 130px;
+    }
+    .welcome-img{
+      height: 70vh;
+    }
+    .section-height{
+      height: 60vh;
+    }
+  }
+  @media (max-width: 768px) {
+   .h1{
+      font-size: 40px;
+    }
+    .peragraph{
+      font-size: 22px;
+      margin-left: 20px;
+    }
+    .welcome-botton{
+      width: 130px;
+    }
+    .welcome-img{
+      height: 75vh;
+    }
+    .section-height{
+      height: 60vh;
+    }
+  }
+  @media (max-width: 1024px) {
+     .h1{
+      font-size: 50px;
+    }
+    .peragraph{
+      font-size: 29px;
+      margin-left: 20px;
+    }
+    .welcome-botton{
+      width: 141px;
+    }
+    .welcome-img{
+      height: 80vh;
+    }
+    .section-height{
+      height: 70vh;
+    }
+  }
+
 </style>

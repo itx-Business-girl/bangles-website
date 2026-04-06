@@ -32,10 +32,11 @@
     color: rgb(10, 10, 10);
     font-size: 22px;
     font-weight: 400;
-    margin: 5%;
     text-decoration: none;
     padding-right: 6%;
   }
+
+  
     @media(max-width:320px){
       .navbar{
         font-size: 18px;

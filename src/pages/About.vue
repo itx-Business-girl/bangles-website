@@ -32,4 +32,35 @@ At our core, we believe in preserving heritage while embracing fashion, so every
         margin-left: 8px;
     }
 }
+@media(max-width:375px){
+    .heading{
+        font-size: 28px;
+    }
+    .peragraph{
+        font-size: 18px;
+        padding: 4px 13px;
+        margin-left: 8px;
+    }
+}
+    @media (max-width: 425px){
+       .heading{
+        font-size: 28px;
+    }
+    .peragraph{
+        font-size: 18px;
+        padding: 4px 13px;
+        margin-left: 8px;
+    }
+    }
+     @media (max-width: 768px){
+        .heading{
+        font-size: 28px;
+    }
+    .peragraph{
+        font-size: 18px;
+        padding: 4px 13px;
+        margin-left: 8px;
+    }
+}
+
 </style>

@@ -212,5 +212,164 @@ const hideToast = () => {
       margin-left: 25px;
      }
    }
+   @media(max-width:375px){
+    .contact-heading{
+      font-size: 30px;
+      margin-left: 5px;
+    }
+    .input-name{
+      width: 145px;
+      margin-left: 10px;
+      height: 22px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-email{
+      width: 145px;
+      margin-left: 10px;
+      height: 22px;
+      margin-top: 5px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-phone{
+      width: 330px;
+      margin-left: 10px;
+      height: 22px;
+      margin-top: 0px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-comment{
+      width: 347px;
+      margin-left: 10px;
+      margin-top: 0px;
+      margin-bottom: 0%;
+      font-size: 14px;
+      height:10px ;
+      padding-top: 12px;
+    }
+    .contact-botton{
+      width: 120px;
+      margin-left: 10px;
+      font-size: 13px;
+      height: 42px;
+      margin-top: 13px;
+    }
+    .contact-heading{
+     margin-left: 25px;
+     font-size: 29px;
+     }
+     .contact-pergraph{
+      margin-left: 25px;
+      font-size: 20px;
+     }
+   }
+   @media (max-width: 425px){
+    .contact-heading{
+      font-size: 30px;
+      margin-left: 5px;
+    }
+    .input-name{
+      width: 170px;
+      margin-left: 10px;
+      height: 22px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-email{
+      width: 170px;
+      margin-left: 10px;
+      height: 22px;
+      margin-top: 5px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-phone{
+      width: 372px;
+      margin-left: 10px;
+      height: 22px;
+      margin-top: 0px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-comment{
+      width: 390px;
+      margin-left: 10px;
+      margin-top: 0px;
+      margin-bottom: 0%;
+      font-size: 14px;
+      height:10px ;
+      padding-top: 12px;
+    }
+    .contact-botton{
+      width: 120px;
+      margin-left: 10px;
+      font-size: 13px;
+      height: 42px;
+      margin-top: 13px;
+    }
+    .contact-heading{
+     margin-left: 25px;
+     font-size: 29px;
+     }
+     .contact-pergraph{
+      margin-left: 25px;
+      font-size: 20px;
+     }
+   }
+   @media (max-width: 768px){
+    .contact-heading{
+      font-size: 30px;
+      margin-left: 5px;
+    }
+    .input-name{
+      width: 340px;
+      margin-left: 10px;
+      height: 22px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-email{
+      width: 340px;
+      margin-left: 10px;
+      height: 22px;
+      margin-top: 5px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-phone{
+      width: 718px;
+      margin-left: 10px;
+      height: 22px;
+      margin-top: 0px;
+      margin-bottom: 13px;
+      font-size: 14px;
+    }
+    .input-comment{
+      width: 736px;
+      margin-left: 10px;
+      margin-top: 0px;
+      margin-bottom: 0%;
+      font-size: 14px;
+      height:10px ;
+      padding-top: 12px;
+    }
+    .contact-botton{
+      width: 120px;
+      margin-left: 10px;
+      font-size: 13px;
+      height: 42px;
+      margin-top: 13px;
+    }
+    .contact-heading{
+     margin-left: 25px;
+     font-size: 29px;
+     }
+     .contact-pergraph{
+      margin-left: 25px;
+      font-size: 20px;
+     }
+   }
   
 </style>
