@@ -13,30 +13,30 @@
 </template>
 
 <style>
-.footer{
+  .footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top:2px solid #d4b06a;
-    /* padding-right: 30px; */
-    height: 50px;
+     padding-right: 30px; 
+     height: 50px;
     padding: 10px 40px;
-    color: rgb(129, 126, 126);
-    margin-top: 20px;
-    /* position: fixed; */
-    /* bottom: 0; */
-    box-shadow:0 5px 10px rgb(129, 126, 126,0.9) ;
-}
- .router-flex{
+    color: rgb(129, 126, 126); 
+     margin-top: 20px;
+     /* position: fixed;  */
+     /* bottom: 0;  */
+    box-shadow:0 5px 10px rgb(129, 126, 126,0.9) ; 
+  } 
+  .router-flex{
   margin: 20px; 
   color:#d4b06a;
   text-decoration: none;
   font-size: 19px;
-  font-weight: 500;     
- } 
+  font-weight: 500;      
+  } 
  .pergraph{
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 300; 
  }
   @media(max-width:320px){
     .footer{
@@ -55,7 +55,7 @@
         margin: 1px;
     }
   }
-  @media(max-width:375px){
+  /* @media(max-width:375px){
     .footer{
         display: flex;
         justify-content: space-between;
@@ -73,15 +73,15 @@
         font-size: 16px;
         margin: 1px;
     }
-  }
-  @media (max-width: 425px) {
+  } */
+  /* @media (max-width: 425px) {
     .footer{
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-direction: column;
         padding: 22px 22px;
-        font-size: 15px;
+        font-size: 15px; 
     }
     .pergraph{
         margin-top: 12px;
@@ -91,7 +91,7 @@
         font-size: 16px;
         margin: 1px;
     }
-  }
+  } */
   @media (max-width: 768px){
     .footer{
         display: flex;
@@ -108,5 +108,7 @@
         font-size: 16px;
         margin: 1px;
   }
-}
+}   
+
+
 </style>

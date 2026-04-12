@@ -8,7 +8,7 @@
 </template>
 
 <style scoped>
- .newletter{
+  .newletter{
     background-color:rgb(247, 242, 242);
     text-align: center;
     padding: 10px 10px;
@@ -42,7 +42,7 @@
   margin-left: 10px;
   cursor: pointer;
 }
-@media(max-width:320px){
+/* @media(max-width:320px){
    .newletter{
       margin-top: 40px;
    }
@@ -64,8 +64,8 @@
       font-size: 14px;
    }
 
-}
-
+} */
+/* 
    @media(max-width:768px){
    .newletter-heading{
       font-size: 22px;
@@ -84,8 +84,8 @@
       padding: 3px 3px;
       font-size: 14px;
    }
-  } 
-   @media (max-width: 425px) {
+  }  */
+   /* @media (max-width: 425px) {
      .newletter-heading{
       font-size: 22px;
    }
@@ -103,7 +103,7 @@
       padding: 3px 3px;
       font-size: 14px;
    }  
-   }
+   } */
     @media (max-width: 768px){
       .newletter-heading{
       font-size: 22px;
@@ -149,5 +149,7 @@
    .newletter{
       margin-top: 60px;
    }
-    }
+    } 
+
+
 </style>

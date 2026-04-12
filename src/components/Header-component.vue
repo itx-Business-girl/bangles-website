@@ -1,11 +1,11 @@
  <template>
     <header class="header">
       <h1 class="logo">Kashmiri Bangles</h1>
-    <nav class="navbar">
-    <router-link class="navbar" to="/">Home</router-link>
-    <router-link class="navbar" to="/about">About</router-link>
-    <router-link class="navbar" to="/products">Products</router-link>
-    <router-link class="navbar" to="/contact">Contact</router-link>
+    <nav class="navbar-pages">
+    <router-link class="navbar-pages" to="/">Home</router-link>
+    <router-link class="navbar-pages" to="/about">About</router-link>
+    <router-link class="navbar-pages" to="/products">Products</router-link>
+    <router-link class="navbar-pages" to="/contact">Contact</router-link>
   </nav>
   </header>
   </template>
@@ -28,7 +28,7 @@
     font-weight: 550;
     font-family: 'Great Vibes', cursive;
   }
-  .navbar{
+  .navbar-pages{
     color: rgb(10, 10, 10);
     font-size: 22px;
     font-weight: 400;

@@ -18,7 +18,7 @@
 </script>
 
 <style scoped>
-  .peragraph{
+   .peragraph{
     color:rgb(141, 139, 139);
     font-size: 25px;
     font-weight: 500;
@@ -64,7 +64,7 @@
     gap: 27px;
     flex-wrap: wrap;
 }
-@media(max-width:320px){
+/* @media(max-width:320px){
   .heading{
     font-size: 25px;
   }
@@ -111,7 +111,7 @@
     width: 140px;
     font-size: 12px;
   }
- }
+ } */
  @media (max-width: 768px){
    .heading{
     font-size: 30px;
@@ -143,5 +143,6 @@
     width: 150px;
     font-size: 12px;
   }
- }
+ } 
+  
 </style>

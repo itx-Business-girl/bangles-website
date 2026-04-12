@@ -155,7 +155,7 @@ const hideToast = () => {
     margin-bottom: 70px;
     border: none;
   }
-   @media(max-width:320px){
+    /* @media(max-width:320px){
     .contact-heading{
       font-size: 30px;
       margin-left: 5px;
@@ -211,8 +211,8 @@ const hideToast = () => {
      .contact-pergraph{
       margin-left: 25px;
      }
-   }
-   @media(max-width:375px){
+   } */
+   /* @media(max-width:375px){
     .contact-heading{
       font-size: 30px;
       margin-left: 5px;
@@ -264,8 +264,8 @@ const hideToast = () => {
       margin-left: 25px;
       font-size: 20px;
      }
-   }
-   @media (max-width: 425px){
+   } */
+   /* @media (max-width: 425px){
     .contact-heading{
       font-size: 30px;
       margin-left: 5px;
@@ -317,21 +317,21 @@ const hideToast = () => {
       margin-left: 25px;
       font-size: 20px;
      }
-   }
+   } */
    @media (max-width: 768px){
     .contact-heading{
-      font-size: 30px;
+      font-size: 45px;
       margin-left: 5px;
     }
     .input-name{
-      width: 340px;
-      margin-left: 10px;
+      width: 32%;
+      margin-left: 20px;
       height: 22px;
       margin-bottom: 13px;
       font-size: 14px;
     }
     .input-email{
-      width: 340px;
+      width:32%;
       margin-left: 10px;
       height: 22px;
       margin-top: 5px;
@@ -339,16 +339,16 @@ const hideToast = () => {
       font-size: 14px;
     }
     .input-phone{
-      width: 718px;
-      margin-left: 10px;
+      width:72%;
+      margin-left: 20px;
       height: 22px;
       margin-top: 0px;
       margin-bottom: 13px;
       font-size: 14px;
     }
     .input-comment{
-      width: 736px;
-      margin-left: 10px;
+      width: 74%;
+      margin-left: 20px;
       margin-top: 0px;
       margin-bottom: 0%;
       font-size: 14px;
@@ -357,7 +357,7 @@ const hideToast = () => {
     }
     .contact-botton{
       width: 120px;
-      margin-left: 10px;
+      margin-left: 20px;
       font-size: 13px;
       height: 42px;
       margin-top: 13px;
@@ -370,6 +370,30 @@ const hideToast = () => {
       margin-left: 25px;
       font-size: 20px;
      }
-   }
+     .contact-botton{
+      display: flex;
+      justify-content: flex-start;
+    }
+    
+     
+   } 
+    @media (min-width: 1024px){
+    .input-name{
+      width: 35%;
+    }
+    .input-email{
+      width: 35%;
+    }
+    .input-phone{
+      width: 73%;
+    }
+    .input-comment{
+      width: 75%;
+    }
+    .contact-botton{
+      display: flex;
+      justify-content: flex-start;
+    }
+   }  
   
 </style>

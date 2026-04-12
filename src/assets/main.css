@@ -3,3 +3,91 @@ body{
     margin: 0%;
     padding: 0%;
 }
+
+/* ========================= */
+/* 🔥 RESPONSIVE MEDIA QUERIES */
+/* ========================= */
+
+/* TABLET */
+@media (max-width: 768px){
+
+  .h1{
+    font-size: 40px;
+  }
+
+  .peragraph{
+    font-size: 20px;
+  }
+
+  .section-height{
+    height: 60vh;
+  }
+
+  .newsletter-search{
+    width: 80%;
+  }
+
+  .footer{
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 425px){
+
+  .header{
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo{
+    font-size: 24px;
+  }
+
+  .navbar{
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .h1{
+    font-size: 30px;
+  }
+
+  .peragraph{
+    font-size: 18px;
+  }
+
+  .section-height{
+    height: 55vh;
+  }
+
+  .product-cart{
+    width: 90%;
+  }
+
+  .newsletter-search{
+    width: 90%;
+  }
+
+  .newsletter-button{
+    width: 150px;
+    margin-top: 10px;
+  }
+}
+
+/* SMALL MOBILE */
+@media (max-width: 320px){
+
+  .h1{
+    font-size: 24px;
+  }
+
+  .peragraph{
+    font-size: 16px;
+  }
+
+  .section-height{
+    height: 50vh;
+  }
+}

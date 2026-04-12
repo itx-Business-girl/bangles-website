@@ -22,7 +22,7 @@ At our core, we believe in preserving heritage while embracing fashion, so every
     margin-left: 17px;
     margin-top: 80px;
 }
-@media(max-width:320px){
+/* @media(max-width:320px){
     .heading{
         font-size: 28px;
     }
@@ -31,8 +31,8 @@ At our core, we believe in preserving heritage while embracing fashion, so every
         padding: 4px 13px;
         margin-left: 8px;
     }
-}
-@media(max-width:375px){
+} */
+/* @media(max-width:375px){
     .heading{
         font-size: 28px;
     }
@@ -41,8 +41,8 @@ At our core, we believe in preserving heritage while embracing fashion, so every
         padding: 4px 13px;
         margin-left: 8px;
     }
-}
-    @media (max-width: 425px){
+} */
+    /* @media (max-width: 425px){
        .heading{
         font-size: 28px;
     }
@@ -51,7 +51,7 @@ At our core, we believe in preserving heritage while embracing fashion, so every
         padding: 4px 13px;
         margin-left: 8px;
     }
-    }
+    } */
      @media (max-width: 768px){
         .heading{
         font-size: 28px;

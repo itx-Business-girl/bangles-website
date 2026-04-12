@@ -29,8 +29,8 @@
     color:rgb(240, 226, 200);
     font-size: 80px;
     font-weight: 500;
-    /* font-family: 'Great Vibes', cursive; */
-    font-family: 'Playfair Display', serif;
+    font-family: 'Great Vibes', cursive; 
+     font-family: 'Playfair Display', serif;
     font-style: italic;
   }
   .peragraph{
@@ -70,11 +70,12 @@
     }
     .section-height{
       height: 50vh;
-    }
-  }
+    } 
+     }  
+  
 
 
-   @media(max-width:375px){
+   @media(min-width:375px){
     .h1{
       font-size: 40px;
     }
@@ -91,10 +92,11 @@
     .section-height{
       height: 55vh;
     }
-   }
+    }
+   
 
 
-   @media (max-width: 425px) {
+   @media (min-width: 425px){
     .h1{
       font-size: 40px;
     }
@@ -111,8 +113,9 @@
     .section-height{
       height: 60vh;
     }
-  }
-  @media (max-width: 768px) {
+    }
+  
+  @media (min-width: 768px){
    .h1{
       font-size: 40px;
     }
@@ -129,8 +132,9 @@
     .section-height{
       height: 60vh;
     }
-  }
-  @media (max-width: 1024px) {
+    }
+  
+  @media (min-width: 1024px){
      .h1{
       font-size: 50px;
     }
@@ -147,6 +151,7 @@
     .section-height{
       height: 70vh;
     }
-  }
-
+  }  
+  
+  
 </style>
