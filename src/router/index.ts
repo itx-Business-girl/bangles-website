@@ -32,9 +32,9 @@ const routes = [
    path: '/contact',
   },
   
-  { path: '/privacy', component: Privacy },
+  { path: '/privacy', component: Privacy},
   { path: '/terms', component: Terms },
-  { path: '/return', component: ReturnPolicy }
+  { path: '/return', component: ReturnPolicy },
 
 ]
 const router = createRouter({

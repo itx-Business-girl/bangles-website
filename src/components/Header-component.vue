@@ -5,7 +5,7 @@
     <router-link class="navbar-pages" to="/">Home</router-link>
     <router-link class="navbar-pages" to="/about">About</router-link>
     <router-link class="navbar-pages" to="/products">Products</router-link>
-    <router-link class="navbar-pages" to="/contact">Contact</router-link>
+    <router-link class="navbar-pages" to="/contact">contact</router-link>
   </nav>
   </header>
   </template>
